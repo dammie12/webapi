@@ -1,13 +1,9 @@
 package main
 
 import (
-	"fmt"
-	"github.com/gin-gonic/gin"
+	"github.com/dammie12/webapi/app"
 )
 
 func main() {
-	fmt.Println("test")
-	r :=gin.Default()
-		
-	)
+	app.StartApplication()
 }
